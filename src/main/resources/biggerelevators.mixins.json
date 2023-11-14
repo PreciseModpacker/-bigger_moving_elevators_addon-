@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.shoqapik.biggerelevators.mixins",
+  "mixins": [
+    "MovingElevatorsConfigMixin",
+    "ElevatorGroupMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "biggerelevators.mixins.refmap.json"
+}
